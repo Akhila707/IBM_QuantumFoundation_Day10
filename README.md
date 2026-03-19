@@ -117,7 +117,7 @@ VQC           : 467.960s  →  requires careful iteration budget
 ---
 
 ## Project Structure
-
+'''
 ```
 IBM_QuantumFoundation_Day10/
 │
@@ -137,7 +137,7 @@ IBM_QuantumFoundation_Day10/
 ├── .gitignore
 └── README.md
 ```
-
+'''
 ---
 
 ## Setup
