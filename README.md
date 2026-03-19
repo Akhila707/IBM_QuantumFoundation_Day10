@@ -96,44 +96,6 @@ Optimizer   : COBYLA (150 iterations)
 Train time  : 467.96s
 Accuracy    : 93.33%  (56/60 test samples)
 Final loss  : 0.4349
-```
-
----
-
-## Results
-
-### Confusion Matrices
-
-```
-Classical SVM          QSVM                VQC
-┌──────────────┐   ┌──────────────┐   ┌──────────────┐
-│  33  │   0  │   │  33  │   0  │   │  33  │   0  │
-│──────│──────│   │──────│──────│   │──────│──────│
-│   0  │  27  │   │   0  │  27  │   │   4  │  23  │
-└──────────────┘   └──────────────┘   └──────────────┘
-  0 errors            0 errors          4 errors (digit 1)
-```
-
-### VQC Loss Curve
-
-```
-Loss vs Iteration:
-
-1.2 ┤╲
-    │ ╲
-0.8 ┤  ╲___
-    │      ╲__
-0.6 ┤         ╲____
-    │               ╲_____________________
-0.4 ┤                                     ● 0.4349
-    └──────────────────────────────────────────────
-    0        50        100       150
-                  Iteration
-```
-
-Loss steadily decreased across all 150 iterations — convergence not yet complete. Extended training would likely push VQC accuracy above 95%.
-
----
 
 ## Key Findings
 
