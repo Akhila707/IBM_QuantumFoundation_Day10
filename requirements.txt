@@ -1,0 +1,10 @@
+qiskit==1.2.4
+qiskit-aer==0.14.2
+qiskit-machine-learning==0.7.2
+qiskit-algorithms>=0.3.0
+scikit-learn>=1.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+scipy>=1.10.0
+python-dotenv>=1.0.0
+jupyter>=7.0.0
