@@ -111,7 +111,7 @@ VQC           : 467.960s  →  requires careful iteration budget
 ```
 
 ---
-
+```
 ## Project Structure
 
 | Path | Description |
@@ -124,7 +124,7 @@ VQC           : 467.960s  →  requires careful iteration budget
 | `LICENSE` | MIT License |
 | `requirements.txt` | Pinned dependencies |
 | `.gitignore` | Excludes secrets + data |
-
+```
 ---
 
 ## Setup
