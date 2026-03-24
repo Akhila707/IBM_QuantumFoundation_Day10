@@ -109,8 +109,6 @@ Classical SVM :   0.013s  →  practical for any dataset
 QSVM          :   2.585s  →  acceptable for moderate datasets
 VQC           : 467.960s  →  requires careful iteration budget
 ```
-
----
 ```
 ## Project Structure
 
@@ -138,7 +136,6 @@ jupyter notebook
 
 Open `notebooks/01_qml_classifier.ipynb` and run all cells.
 
----
 
 ## Tech Stack
 
